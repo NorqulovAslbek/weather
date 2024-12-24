@@ -36,11 +36,11 @@ class BotHandler(
 
 
     override fun getBotUsername(): String {
-        return "@asl_bec_bot"
+        return "telegram bot username"
     }
 
     override fun getBotToken(): String {
-        return "6608269679:AAGM8vtudTooiUKpvQVyvlnCOAjV5vdFbBE"
+        return "telegram api key"
     }
 
     override fun onUpdateReceived(update: Update?) {
