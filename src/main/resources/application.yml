@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SimpleTelegramBot
+  datasource:
+    username: jdbc_user
+    password: 123456
+    url: jdbc:postgresql://localhost:5432/user-service
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
